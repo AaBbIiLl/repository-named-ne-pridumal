@@ -1,0 +1,25 @@
+.Start{
+    display:flex;
+    justify-content:center;
+    }
+    .Introduction{
+    width: 100%;
+    }
+    .photo{
+    display:flex;
+    justify-content:start;
+    }
+    .text{
+    display:flex;
+    justify-content:start;
+    }
+    .btn{
+    display:flex;
+    justify-content:start;
+    }
+    button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding:10px;
+    }
