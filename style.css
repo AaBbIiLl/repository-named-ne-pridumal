@@ -2,19 +2,22 @@
     display:flex;
     justify-content:center;
     }
-    .Introduction{
+    .introduction{
     width: 100%;
     display:flex;
     justify-content:center;
+    flex-direction: row;
     }
-    .photo{
-    display:flex;
-    justify-content:start;
+    .txtbtn{
+    display: flex;
+    flex-direction: column;
     }
     .text{
     border: 2px solid;
     border-radius: 25px;
-    width:380px
+    width: 360px;
+    line-height: 34px;
+    margin:100px 0 0 0;
     }
     .OurPC{
     display:flex;
@@ -23,6 +26,7 @@
     .btn{
     display:flex;
     justify-content:start;
+    margin-top: 10px;
     }
     button{
     background-color: black;
@@ -33,7 +37,8 @@
     .text2{
         border: 2px solid;
         border-radius: 25px;
-        width:380px
+        width:380px;
+        height: 170px;
         }
     .OurPhones{
         display:flex;
@@ -41,9 +46,42 @@
     }
     .PC{
         display:flex;
-        justify-content:start;
+        justify-content:space-between;
     }
+    .PC1:nth-child(1) > .PCTitle{
+    margin:20px 0 0 20px;
+    } 
+    .PC1:nth-child(2) > .PCTitle{
+     margin:20px 0 0 30px;
+    }
+    .PC1:nth-child(3) > .PCTitle{
+    margin:20px 0 0 40px;
+    } 
+    .PC1:nth-child(4) > .PCTitle{
+    margin:20px 0 0 0;
+    position: relative;
+    }
+    .PCInf{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    }
+    .introduction2{
+        width: 100%;
+        display:flex;
+        justify-content:center;
+        flex-direction: row;
+    }
+    .btntxt{
+        display: flex;
+        flex-direction: column;
+        margin-top: 110px;
+        }
     .Phones{
         display:flex;
-        justify-content:start; 
+        justify-content:space-between; 
+    }
+    footer{
+    background-color: gray;
+    color:black;
     }
