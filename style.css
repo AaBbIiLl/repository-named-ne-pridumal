@@ -84,19 +84,23 @@
     footer{
     background-color: gray;
     color:black;
-    display: flex;
-    flex-direction: row;
     }
     .callme{
+    margin-left:10px;
+    }
+    .chtooo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 10px;
     }
     .cpuser{
-    display: inline-block;
-    margin-top:150px;
-    }
-    .soc{
-        justify-content: end;
-        margin-top:150px;
+    margin-left: 560px;
     }    
+    .soc{
+    margin-left: 1580px;
+    }
+    .chto2{
+        display: flex;
+        flex-direction: row;
+    }
     
