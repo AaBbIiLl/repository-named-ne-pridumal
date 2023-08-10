@@ -84,4 +84,19 @@
     footer{
     background-color: gray;
     color:black;
+    display: flex;
+    flex-direction: row;
     }
+    .callme{
+    display: flex;
+    flex-direction: column;
+    }
+    .cpuser{
+    display: inline-block;
+    margin-top:150px;
+    }
+    .soc{
+        justify-content: end;
+        margin-top:150px;
+    }    
+    
