@@ -1,8 +1,10 @@
-const textcall = document.querySelector('.textcall');
-const Thanks = document.querySelector('.Thanks');
-const close = document.querySelector('.close');
-
-function showtextcall(){
-Thanks.style.display='flex';
-}
-textcall.addEventListener('click', showtextcall);
+document.getElementById("textcall").addEventListener("click", () => {
+    document.body.style.overflow = "hidden";
+    document.getElementById("empty").classList.add("cover-block");
+    document.getElementById("Thanks").classList.add("window-position");
+});
+document.getElementById("empty").addEventListener("click", () => {
+    document.body.style.overflow = "visible";
+    document.getElementById("empty").classList.remove("cover-block");
+    document.getElementById("Thanks").classList.remove("window-position");
+});

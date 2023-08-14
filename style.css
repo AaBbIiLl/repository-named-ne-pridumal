@@ -102,5 +102,24 @@
     }
     .Thanks{
     display: none;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid;
+    }
+    .what{
+    margin-top: 100px;
+    }
+    .cover-block::before {
+        display: block;
+    }
+    .window-position {
+        display: block;
     }
     
